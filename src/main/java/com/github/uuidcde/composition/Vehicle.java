@@ -25,5 +25,4 @@ public class Vehicle {
         this.engine.refill();
         this.body.load();
     }
-
 }
