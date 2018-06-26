@@ -16,11 +16,6 @@ public class DumpTask implements Executable {
     }
 
     @Override
-    public boolean getExecutable() {
-        return true;
-    }
-
-    @Override
     public void execute() {
         if (logger.isDebugEnabled()) {
             logger.debug(">>> execute");

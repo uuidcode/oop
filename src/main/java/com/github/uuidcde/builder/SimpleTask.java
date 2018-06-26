@@ -10,16 +10,6 @@ public class SimpleTask implements Executable {
 
     private String message;
     private boolean pushable;
-    private boolean executable;
-
-    public boolean getExecutable() {
-        return this.executable;
-    }
-
-    public SimpleTask setExecutable(boolean executable) {
-        this.executable = executable;
-        return this;
-    }
 
     public boolean getPushable() {
         return this.pushable;

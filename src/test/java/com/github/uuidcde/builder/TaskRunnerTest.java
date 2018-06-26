@@ -9,7 +9,6 @@ public class TaskRunnerTest {
     public void test() {
         SimpleTask simpleTask = SimpleTask.of()
             .setMessage(createUUID())
-            .setExecutable(true)
             .setPushable(true);
 
         TaskRunner.of()

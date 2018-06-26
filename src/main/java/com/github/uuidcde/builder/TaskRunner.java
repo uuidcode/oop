@@ -17,9 +17,7 @@ public class TaskRunner {
             }
         }
 
-        if (executable.getExecutable()) {
-            executable.execute();
-        }
+        executable.execute();
 
         return this;
     }

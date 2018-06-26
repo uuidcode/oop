@@ -5,5 +5,4 @@ public interface Executable {
     }
 
     boolean getPushable();
-    boolean getExecutable();
 }
